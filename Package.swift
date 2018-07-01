@@ -11,7 +11,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/core.git", from: "3.0.0"),
         
         // ✳️ Swift ORM framework (queries, models, and relations) for building NoSQL and SQL database integrations.
-        .package(url: "https://github.com/vapor/fluent.git", from: "3.0.0-rc"),
+        .package(url: "https://github.com/smeger/fluent.git", from: "3.0.0-rc"),
 
         // 📦 Dependency injection / inversion of control framework.
         .package(url: "https://github.com/vapor/service.git", from: "1.0.0"),
